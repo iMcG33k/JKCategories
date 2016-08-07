@@ -421,6 +421,7 @@
 		9F37658D1D32F7F50014DC64 /* SWFMDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWFMDBHelper.h; sourceTree = "<group>"; };
 		9F37658E1D32F7F50014DC64 /* SWFMDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWFMDBHelper.m; sourceTree = "<group>"; };
 		9F37659B1D32F85C0014DC64 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9F4B8D4F1D572BCD00D4DED5 /* SWWeakStrongDance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWWeakStrongDance.h; sourceTree = "<group>"; };
 		A202D9601B0F6C4400EAB199 /* NSDate+JKReporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKReporting.h"; sourceTree = "<group>"; };
 		A202D9611B0F6C4400EAB199 /* NSDate+JKReporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKReporting.m"; sourceTree = "<group>"; };
 		A202D9631B0F6DF900EAB199 /* NSString+JKMIME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKMIME.h"; sourceTree = "<group>"; };
@@ -1151,6 +1152,7 @@
 			isa = PBXGroup;
 			children = (
 				9F37657B1D32F7F50014DC64 /* Singleton.h */,
+				9F4B8D4F1D572BCD00D4DED5 /* SWWeakStrongDance.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
