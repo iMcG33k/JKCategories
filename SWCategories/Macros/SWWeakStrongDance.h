@@ -3,7 +3,7 @@
 //  JKCategories-Demo
 //
 //  Created by iMcG33k on 16/8/7.
-//  Copyright © 2016年 www.skyfox.org. All rights reserved.
+//  Copyright © 2016年 https://github.com/iMcG33k. All rights reserved.
 //
 
 #ifndef SWWeakStrongDance_h
