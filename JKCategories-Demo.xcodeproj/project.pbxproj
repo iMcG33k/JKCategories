@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		7926E6931B736E8200888EB9 /* UIViewController+JKBackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7926E6921B736E8200888EB9 /* UIViewController+JKBackButtonItemTitle.m */; };
 		7982561A1B3A59060033A0C1 /* NSString+JKNormalRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 798256191B3A59060033A0C1 /* NSString+JKNormalRegex.m */; };
+		961BBDA61D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BBDA51D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.m */; };
 		9F37658F1D32F7F50014DC64 /* Foundation+LogChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F37656D1D32F7F50014DC64 /* Foundation+LogChinese.m */; };
 		9F3765901D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765701D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m */; };
 		9F3765911D32F7F50014DC64 /* NSArray+YBL_Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765721D32F7F50014DC64 /* NSArray+YBL_Utilities.m */; };
 		9F3765921D32F7F50014DC64 /* NSMutableArray+YBL_OutOfRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765741D32F7F50014DC64 /* NSMutableArray+YBL_OutOfRange.m */; };
-		9F3765931D32F7F50014DC64 /* NSObject+YBL_SwizzleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765791D32F7F50014DC64 /* NSObject+YBL_SwizzleMethod.m */; };
 		9F3765941D32F7F50014DC64 /* SWCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F37657E1D32F7F50014DC64 /* SWCodingObject.m */; };
 		9F3765951D32F7F50014DC64 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765831D32F7F50014DC64 /* FMDatabase.m */; };
 		9F3765961D32F7F50014DC64 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765851D32F7F50014DC64 /* FMDatabaseAdditions.m */; };
@@ -392,6 +392,8 @@
 		7926E6921B736E8200888EB9 /* UIViewController+JKBackButtonItemTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JKBackButtonItemTitle.m"; sourceTree = "<group>"; };
 		798256181B3A59060033A0C1 /* NSString+JKNormalRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKNormalRegex.h"; sourceTree = "<group>"; };
 		798256191B3A59060033A0C1 /* NSString+JKNormalRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKNormalRegex.m"; sourceTree = "<group>"; };
+		961BBDA41D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SW_SwizzleMethod.h"; sourceTree = "<group>"; };
+		961BBDA51D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SW_SwizzleMethod.m"; sourceTree = "<group>"; };
 		9F37656D1D32F7F50014DC64 /* Foundation+LogChinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+LogChinese.m"; sourceTree = "<group>"; };
 		9F37656F1D32F7F50014DC64 /* NSArray+YBL_OutOfRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YBL_OutOfRange.h"; sourceTree = "<group>"; };
 		9F3765701D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YBL_OutOfRange.m"; sourceTree = "<group>"; };
@@ -401,8 +403,6 @@
 		9F3765741D32F7F50014DC64 /* NSMutableArray+YBL_OutOfRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+YBL_OutOfRange.m"; sourceTree = "<group>"; };
 		9F3765761D32F7F50014DC64 /* NSObject+AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AppInfo.h"; sourceTree = "<group>"; };
 		9F3765771D32F7F50014DC64 /* NSObject+Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Reflection.h"; sourceTree = "<group>"; };
-		9F3765781D32F7F50014DC64 /* NSObject+YBL_SwizzleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YBL_SwizzleMethod.h"; sourceTree = "<group>"; };
-		9F3765791D32F7F50014DC64 /* NSObject+YBL_SwizzleMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YBL_SwizzleMethod.m"; sourceTree = "<group>"; };
 		9F37657B1D32F7F50014DC64 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		9F37657D1D32F7F50014DC64 /* SWCodingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCodingObject.h; sourceTree = "<group>"; };
 		9F37657E1D32F7F50014DC64 /* SWCodingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCodingObject.m; sourceTree = "<group>"; };
@@ -1137,10 +1137,10 @@
 		9F3765751D32F7F50014DC64 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				961BBDA41D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.h */,
+				961BBDA51D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.m */,
 				9F3765761D32F7F50014DC64 /* NSObject+AppInfo.h */,
 				9F3765771D32F7F50014DC64 /* NSObject+Reflection.h */,
-				9F3765781D32F7F50014DC64 /* NSObject+YBL_SwizzleMethod.h */,
-				9F3765791D32F7F50014DC64 /* NSObject+YBL_SwizzleMethod.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -3322,6 +3322,7 @@
 				A2EF56BF1B21C3050005F730 /* NSManagedObjectContext+JKFetchRequestsConstructors.m in Sources */,
 				9F3765981D32F7F50014DC64 /* FMDatabaseQueue.m in Sources */,
 				A228452E1BE20A24000AD2F6 /* NSNumber+JKRomanNumerals.m in Sources */,
+				961BBDA61D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.m in Sources */,
 				A2E538EC1A775A9900A5D921 /* UIImage+JKRemoteSize.m in Sources */,
 				A202D9801B0F7CD100EAB199 /* CLLocationDemoViewController.m in Sources */,
 				A205E4E81C28EA6C002A1E33 /* UIView+JKCustomBorder.m in Sources */,
@@ -3507,7 +3508,6 @@
 				A24EC2E71B74D6B900CE538B /* NSRunLoop+JKPerformBlock.m in Sources */,
 				A2C12B9C1B1C27F100EAD198 /* NSData+JKHash.m in Sources */,
 				A284C1531AEBD6E400D90ED5 /* UIView+JKFind.m in Sources */,
-				9F3765931D32F7F50014DC64 /* NSObject+YBL_SwizzleMethod.m in Sources */,
 				A2FD5B601A52708900555EA2 /* NSURL+JKParam.m in Sources */,
 				A2958D2A1B359B1F00D7AA0F /* UIImageView+JKFaceAwareFill.m in Sources */,
 				A281FBC11AC812F1009040DA /* UIButtonDemoViewController.m in Sources */,

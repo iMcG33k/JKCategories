@@ -7,13 +7,13 @@
 //
 
 #import "NSMutableArray+YBL_OutOfRange.h"
-#import "NSObject+YBL_SwizzleMethod.h"
+#import "NSObject+SW_SwizzleMethod.h"
 
 @implementation NSMutableArray (YBL_OutOfRange)
 + (void)load
 {
-  [self ybl_swizzleInstanceMethod:NSClassFromString(@"__NSArrayM") originSelector:@selector(addObject:) otherSelector:@selector(p_addObject:)];
-  [self ybl_swizzleInstanceMethod:NSClassFromString(@"__NSArrayM") originSelector:@selector(objectAtIndex:) otherSelector:@selector(p_objectAtIndex:)];
+  [self SW_swizzleInstanceMethod:NSClassFromString(@"__NSArrayM") originSelector:@selector(addObject:) swizzledSelector:@selector(p_addObject:)];
+  [self SW_swizzleInstanceMethod:NSClassFromString(@"__NSArrayM") originSelector:@selector(objectAtIndex:) swizzledSelector:@selector(p_objectAtIndex:)];
 }
 
 // NSMutableArray 添加元素时自动忽略nil
