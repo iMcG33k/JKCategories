@@ -10,6 +10,9 @@
 		7926E6931B736E8200888EB9 /* UIViewController+JKBackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7926E6921B736E8200888EB9 /* UIViewController+JKBackButtonItemTitle.m */; };
 		7982561A1B3A59060033A0C1 /* NSString+JKNormalRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 798256191B3A59060033A0C1 /* NSString+JKNormalRegex.m */; };
 		961BBDA61D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BBDA51D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.m */; };
+		963C97BC1DDC46F2003A5D66 /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 963C97B71DDC46F2003A5D66 /* NSArray+HYBUnicodeReadable.m */; };
+		963C97BD1DDC46F2003A5D66 /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 963C97B91DDC46F2003A5D66 /* NSDictionary+HYBUnicodeReadable.m */; };
+		963C97BE1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 963C97BB1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.m */; };
 		9F37658F1D32F7F50014DC64 /* Foundation+LogChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F37656D1D32F7F50014DC64 /* Foundation+LogChinese.m */; };
 		9F3765901D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765701D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m */; };
 		9F3765911D32F7F50014DC64 /* NSArray+YBL_Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765721D32F7F50014DC64 /* NSArray+YBL_Utilities.m */; };
@@ -394,6 +397,12 @@
 		798256191B3A59060033A0C1 /* NSString+JKNormalRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKNormalRegex.m"; sourceTree = "<group>"; };
 		961BBDA41D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SW_SwizzleMethod.h"; sourceTree = "<group>"; };
 		961BBDA51D7433FA00FDBF61 /* NSObject+SW_SwizzleMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SW_SwizzleMethod.m"; sourceTree = "<group>"; };
+		963C97B61DDC46F2003A5D66 /* NSArray+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		963C97B71DDC46F2003A5D66 /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		963C97B81DDC46F2003A5D66 /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		963C97B91DDC46F2003A5D66 /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		963C97BA1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		963C97BB1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
 		9F37656D1D32F7F50014DC64 /* Foundation+LogChinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+LogChinese.m"; sourceTree = "<group>"; };
 		9F37656F1D32F7F50014DC64 /* NSArray+YBL_OutOfRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YBL_OutOfRange.h"; sourceTree = "<group>"; };
 		9F3765701D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YBL_OutOfRange.m"; sourceTree = "<group>"; };
@@ -1100,6 +1109,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		963C97B51DDC46F2003A5D66 /* logChinese */ = {
+			isa = PBXGroup;
+			children = (
+				963C97B61DDC46F2003A5D66 /* NSArray+HYBUnicodeReadable.h */,
+				963C97B71DDC46F2003A5D66 /* NSArray+HYBUnicodeReadable.m */,
+				963C97B81DDC46F2003A5D66 /* NSDictionary+HYBUnicodeReadable.h */,
+				963C97B91DDC46F2003A5D66 /* NSDictionary+HYBUnicodeReadable.m */,
+				963C97BA1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.h */,
+				963C97BB1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.m */,
+			);
+			path = logChinese;
+			sourceTree = "<group>";
+		};
 		9F37656B1D32F7F50014DC64 /* SWCategories */ = {
 			isa = PBXGroup;
 			children = (
@@ -1114,6 +1136,7 @@
 		9F37656C1D32F7F50014DC64 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				963C97B51DDC46F2003A5D66 /* logChinese */,
 				9F37656D1D32F7F50014DC64 /* Foundation+LogChinese.m */,
 				9F37656E1D32F7F50014DC64 /* NSArray */,
 				9F3765751D32F7F50014DC64 /* NSObject */,
@@ -3286,6 +3309,7 @@
 				9F37659A1D32F7F50014DC64 /* SWFMDBHelper.m in Sources */,
 				A202D9621B0F6C4400EAB199 /* NSDate+JKReporting.m in Sources */,
 				A24EC2FC1B74E05300CE538B /* NSString+JKMatcher.m in Sources */,
+				963C97BE1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.m in Sources */,
 				A28BE36A1A3EB043005C4AC6 /* UIViewController+JKVisible.m in Sources */,
 				A24EC2FF1B74E21200CE538B /* NSData+JKzlib.m in Sources */,
 				A281FC0D1AC813EA009040DA /* UIWindowDemoViewController.m in Sources */,
@@ -3443,6 +3467,7 @@
 				A2FD5B4B1A52687000555EA2 /* NSException+JKTrace.m in Sources */,
 				A22104031CF9D16D00CE6547 /* UICollectionView+ARDynamicCacheHeightLayoutCell.m in Sources */,
 				A27E931E1B381D930010C7EA /* UIFont+JKDynamicFontControl.m in Sources */,
+				963C97BC1DDC46F2003A5D66 /* NSArray+HYBUnicodeReadable.m in Sources */,
 				A2B995D31B46797500011613 /* UIViewController+JKBlockSegue.m in Sources */,
 				A286CA781C291ECE000075D4 /* NSObject+JKReflection.m in Sources */,
 				A28BE2EC1A3E9F48005C4AC6 /* NSObject+JKAssociatedObject.m in Sources */,
@@ -3513,6 +3538,7 @@
 				A281FBC11AC812F1009040DA /* UIButtonDemoViewController.m in Sources */,
 				A219B8BA1A615E3800135327 /* UIImage+JKCapture.m in Sources */,
 				A28BE33E1A3E9FDC005C4AC6 /* UIWebView+JKBlocks.m in Sources */,
+				963C97BD1DDC46F2003A5D66 /* NSDictionary+HYBUnicodeReadable.m in Sources */,
 				A2EF56C61B21C3370005F730 /* NSManagedObjectContextDemoViewController.m in Sources */,
 				A2893D941AC3D42400EFA90A /* UIButton+JKCountDown.m in Sources */,
 				A23C10861B3D39AD00FA34AA /* UIViewController+JKBackButtonTouched.m in Sources */,
