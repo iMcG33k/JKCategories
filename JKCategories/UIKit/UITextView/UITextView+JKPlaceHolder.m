@@ -46,8 +46,9 @@ static const char *jk_placeHolderTextView = "jk_placeHolderTextView";
         self.jk_placeHolderTextView.hidden = NO;
     }
 }
-- (void)dealloc
-{
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
+//Mark: 会导致iOS8用户闪退
+//- (void)dealloc
+//{
+//    [[NSNotificationCenter defaultCenter] removeObserver:self];
+//}
 @end

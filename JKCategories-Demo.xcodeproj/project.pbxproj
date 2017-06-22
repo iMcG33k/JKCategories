@@ -3271,11 +3271,8 @@
 				A2B995CA1B46778500011613 /* UIButton+JKTouchAreaInsets.m in Sources */,
 				C7A8107F1BBA876B00865FFB /* NSObject+JKAppInfo.m in Sources */,
 				A2FD5B521A5269D400555EA2 /* NSObject+JKRuntime.m in Sources */,
-<<<<<<< HEAD
 				A2958CC11B357E2E00D7AA0F /* CAAnimation+Blocks.m in Sources */,
 				9F3765991D32F7F50014DC64 /* FMResultSet.m in Sources */,
-=======
->>>>>>> shaojiankui/master
 				A281FBEA1AC81392009040DA /* UISearchBarDemoViewController.m in Sources */,
 				A27E931B1B381D210010C7EA /* UIFont+JKTTF.m in Sources */,
 				A2EF56E11B21C59C0005F730 /* UIImage+JKBlur.m in Sources */,
