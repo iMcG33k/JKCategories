@@ -13,6 +13,7 @@
 		963C97BC1DDC46F2003A5D66 /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 963C97B71DDC46F2003A5D66 /* NSArray+HYBUnicodeReadable.m */; };
 		963C97BD1DDC46F2003A5D66 /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 963C97B91DDC46F2003A5D66 /* NSDictionary+HYBUnicodeReadable.m */; };
 		963C97BE1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 963C97BB1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.m */; };
+		966D435B1F0229B700555846 /* UILabel+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D435A1F0229B700555846 /* UILabel+Copy.m */; };
 		9F37658F1D32F7F50014DC64 /* Foundation+LogChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F37656D1D32F7F50014DC64 /* Foundation+LogChinese.m */; };
 		9F3765901D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765701D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m */; };
 		9F3765911D32F7F50014DC64 /* NSArray+YBL_Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765721D32F7F50014DC64 /* NSArray+YBL_Utilities.m */; };
@@ -20,7 +21,6 @@
 		9F3765941D32F7F50014DC64 /* SWCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F37657E1D32F7F50014DC64 /* SWCodingObject.m */; };
 		9F3765951D32F7F50014DC64 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765831D32F7F50014DC64 /* FMDatabase.m */; };
 		9F3765961D32F7F50014DC64 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765851D32F7F50014DC64 /* FMDatabaseAdditions.m */; };
-		9F3765971D32F7F50014DC64 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765871D32F7F50014DC64 /* FMDatabasePool.m */; };
 		9F3765981D32F7F50014DC64 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765891D32F7F50014DC64 /* FMDatabaseQueue.m */; };
 		9F3765991D32F7F50014DC64 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F37658C1D32F7F50014DC64 /* FMResultSet.m */; };
 		9F37659A1D32F7F50014DC64 /* SWFMDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F37658E1D32F7F50014DC64 /* SWFMDBHelper.m */; };
@@ -395,6 +395,8 @@
 		963C97B91DDC46F2003A5D66 /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
 		963C97BA1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
 		963C97BB1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		966D43591F0229B700555846 /* UILabel+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Copy.h"; sourceTree = "<group>"; };
+		966D435A1F0229B700555846 /* UILabel+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Copy.m"; sourceTree = "<group>"; };
 		9F37656D1D32F7F50014DC64 /* Foundation+LogChinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+LogChinese.m"; sourceTree = "<group>"; };
 		9F37656F1D32F7F50014DC64 /* NSArray+YBL_OutOfRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YBL_OutOfRange.h"; sourceTree = "<group>"; };
 		9F3765701D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YBL_OutOfRange.m"; sourceTree = "<group>"; };
@@ -2489,6 +2491,8 @@
 		A28BE3071A3E9FDC005C4AC6 /* UILable */ = {
 			isa = PBXGroup;
 			children = (
+				966D43591F0229B700555846 /* UILabel+Copy.h */,
+				966D435A1F0229B700555846 /* UILabel+Copy.m */,
 				A28BE3081A3E9FDC005C4AC6 /* UILabel+JKAdjustableLabel.h */,
 				A28BE3091A3E9FDC005C4AC6 /* UILabel+JKAdjustableLabel.m */,
 				A28BE30A1A3E9FDC005C4AC6 /* UILabel+JKSuggestSize.h */,
@@ -3271,7 +3275,6 @@
 				A2B995CA1B46778500011613 /* UIButton+JKTouchAreaInsets.m in Sources */,
 				C7A8107F1BBA876B00865FFB /* NSObject+JKAppInfo.m in Sources */,
 				A2FD5B521A5269D400555EA2 /* NSObject+JKRuntime.m in Sources */,
-				A2958CC11B357E2E00D7AA0F /* CAAnimation+Blocks.m in Sources */,
 				9F3765991D32F7F50014DC64 /* FMResultSet.m in Sources */,
 				A281FBEA1AC81392009040DA /* UISearchBarDemoViewController.m in Sources */,
 				A27E931B1B381D210010C7EA /* UIFont+JKTTF.m in Sources */,
@@ -3315,6 +3318,7 @@
 				A202D9E31B10400100EAB199 /* BaseViewController.m in Sources */,
 				A28141B91B5BCA0500496E75 /* NSDate+JKCupertinoYankee.m in Sources */,
 				A28BE3751A3EBA7E005C4AC6 /* UIImage+JKFileName.m in Sources */,
+				966D435B1F0229B700555846 /* UILabel+Copy.m in Sources */,
 				A205E4C71C28E470002A1E33 /* NSInvocation+JKBb.m in Sources */,
 				A281FB8F1AC8122D009040DA /* NSDateDemoViewController.m in Sources */,
 				A281FBFE1AC813C6009040DA /* UIViewDemoViewController.m in Sources */,
