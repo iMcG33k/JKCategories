@@ -46,6 +46,11 @@ static const char *jk_placeHolderTextView = "jk_placeHolderTextView";
         self.jk_placeHolderTextView.hidden = NO;
     }
 }
+
+- (void)sw_hidePlaceHolder {
+  self.jk_placeHolderTextView.hidden = YES;
+}
+
 //Mark: 会导致iOS8用户闪退
 //- (void)dealloc
 //{

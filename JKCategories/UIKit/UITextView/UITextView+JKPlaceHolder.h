@@ -11,4 +11,5 @@
 @interface UITextView (JKPlaceHolder) <UITextViewDelegate>
 @property (nonatomic, strong) UITextView *jk_placeHolderTextView;
 - (void)jk_addPlaceHolder:(NSString *)placeHolder;
+- (void)sw_hidePlaceHolder;
 @end
