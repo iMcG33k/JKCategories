@@ -16,6 +16,7 @@
 		963C97BE1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 963C97BB1DDC46F2003A5D66 /* NSSet+HYBUnicodeReadable.m */; };
 		965766201F661AEE00319CA7 /* UIViewController+SWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657661F1F661AEE00319CA7 /* UIViewController+SWExtension.m */; };
 		966D435B1F0229B700555846 /* UILabel+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D435A1F0229B700555846 /* UILabel+Copy.m */; };
+		96D8889A20576DB000CB6965 /* UIView+ShadowCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8889920576DB000CB6965 /* UIView+ShadowCorner.m */; };
 		9F37658F1D32F7F50014DC64 /* Foundation+LogChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F37656D1D32F7F50014DC64 /* Foundation+LogChinese.m */; };
 		9F3765901D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765701D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m */; };
 		9F3765911D32F7F50014DC64 /* NSArray+YBL_Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3765721D32F7F50014DC64 /* NSArray+YBL_Utilities.m */; };
@@ -403,6 +404,8 @@
 		9657661F1F661AEE00319CA7 /* UIViewController+SWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SWExtension.m"; sourceTree = "<group>"; };
 		966D43591F0229B700555846 /* UILabel+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Copy.h"; sourceTree = "<group>"; };
 		966D435A1F0229B700555846 /* UILabel+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Copy.m"; sourceTree = "<group>"; };
+		96D8889820576DB000CB6965 /* UIView+ShadowCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ShadowCorner.h"; sourceTree = "<group>"; };
+		96D8889920576DB000CB6965 /* UIView+ShadowCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ShadowCorner.m"; sourceTree = "<group>"; };
 		9F37656D1D32F7F50014DC64 /* Foundation+LogChinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+LogChinese.m"; sourceTree = "<group>"; };
 		9F37656F1D32F7F50014DC64 /* NSArray+YBL_OutOfRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YBL_OutOfRange.h"; sourceTree = "<group>"; };
 		9F3765701D32F7F50014DC64 /* NSArray+YBL_OutOfRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YBL_OutOfRange.m"; sourceTree = "<group>"; };
@@ -1095,6 +1098,8 @@
 		9639E6F21FECFA7D00928AF1 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				96D8889820576DB000CB6965 /* UIView+ShadowCorner.h */,
+				96D8889920576DB000CB6965 /* UIView+ShadowCorner.m */,
 				9639E6F01FECFA7700928AF1 /* UIView+SWExtension.h */,
 				9639E6EF1FECFA7700928AF1 /* UIView+SWExtension.m */,
 			);
@@ -3262,6 +3267,7 @@
 				A284C15B1AEBDAC200D90ED5 /* NSDictionary+JKJSONString.m in Sources */,
 				A2FD5B321A52574C00555EA2 /* UIImage+JKMerge.m in Sources */,
 				A2958D391B35A08000D7AA0F /* UIImage+JKVector.m in Sources */,
+				96D8889A20576DB000CB6965 /* UIView+ShadowCorner.m in Sources */,
 				A281FBDA1AC8133D009040DA /* UILableDemoViewController.m in Sources */,
 				A218D8E01A47A25100AB83CA /* UIWebView+JKJavaScript.m in Sources */,
 				A205E4D01C28E59E002A1E33 /* NSURLConnectionDemoViewController.m in Sources */,
